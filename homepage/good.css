@@ -1,0 +1,85 @@
+@font-face {
+   font-family: "Avenir Next";
+   src: url("Avenir Next.ttc");
+}
+body{
+    font-family: "Avenir Next";
+}
+a{
+    color: #66CAB4;
+}
+ul.skill{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+hr{
+    border-color: #66CAB4;
+}
+
+#photo{
+    width: 30vw;
+    height: 30vh;
+    padding-left:35%;
+}
+.title{
+    padding-top: 5%;
+    color: #66CAB4;
+}
+.text{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #4D6864;
+}
+.center{
+    text-align: center;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a  {
+    display: block;
+    color: #66CAB4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#sidebar{
+    position: fixed;
+    z-index: 1;
+    width: 100px;
+    height: 80px;
+    
+    right:0;
+    top: 30%;
+}
+
+li.menu a:hover {
+    background-color: #66CAB4;
+    color: white;
+}
+a.side {
+    float: none;
+    background-color:white;
+}
+
+a.side {
+    display: block;
+    color: #66CAB4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.side:hover {
+    background-color: #66CAB4;
+    color: white;
+}
